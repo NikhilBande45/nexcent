@@ -60,11 +60,11 @@ const Count = () => {
   }, []);
 
   return (
-    <div className="bg-[#F5F7FA] mt-10 py-6 md:py-0 md:mt-0">
+    <div className="bg-[#F5F7FA] mt-10 py-6 md:py-0 md:mt-0 dark:bg-[#1C1C1C]">
       <div className="flex flex-col md:flex-row items-center justify-between sm:px-0 mx-20 md:px-10 lg:px-20">
         <div>
           <div>
-            <div className="text-2xl font-semibold text-center sm:text-start">Helping a local</div>
+            <div className="text-2xl font-semibold text-center sm:text-start dark:text-white">Helping a local</div>
             <div className="text-[#4CAF4F] text-2xl font-semibold text-center sm:text-start">
               business reinvent itself
             </div>
@@ -87,7 +87,7 @@ const Count = () => {
                 <p
                   ref={addToRefs}
                   data-end-value={counter.endValue}
-                  className="text-2xl font-bold text-gray-800"
+                  className="text-2xl font-bold text-gray-800 dark:text-white"
                 >
                   0
                 </p>

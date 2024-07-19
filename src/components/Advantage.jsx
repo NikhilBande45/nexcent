@@ -4,7 +4,7 @@ import React from 'react'
 const Advantage = () => {
   return (
     <div className='flex flex-col gap-3 items-center justify-center mx-20 my-10'>
-      <h2 className='text-center font-semibold text-2xl'>Caring is the new marketing</h2>
+      <h2 className='text-center font-semibold text-2xl dark:text-white'>Caring is the new marketing</h2>
       <p className='text-center text-[#717171] md:w-[550px]'>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
       <div>
         <div className='flex flex-col lg:flex-row gap-32'>

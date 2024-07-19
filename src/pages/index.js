@@ -12,8 +12,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="dark:bg-black" >
-        <div className="bg-[#F5F7FA">
+      <div className="dark:bg-[#1C1C1C]" >
+        <div className="bg-[#F5F7FA] dark:bg-[#1C1C1C]">
           <Nav />
           <Hero/>
         </div>

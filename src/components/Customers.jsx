@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Customers = () => {
   return (
 
-    <div className='bg-[#F5F7FA]'>
+    <div className='bg-[#F5F7FA] dark:bg-[#1C1C1C]'>
       <div className='flex flex-col py-6 lg:flex-row items-center justify-center gap-8 mx-20'>
           <img src="/images/customer.png" width={400} height={400} />
           <div className='flex flex-col gap-y-2 items-start'>
