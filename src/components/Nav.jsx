@@ -55,7 +55,7 @@ const Nav = () => {
               Sign Up
             </button>
 
-            <label className="swap swap-rotate">
+            <label className="swap swap-rotate dark:text-white">
             {/* this hidden checkbox controls the state */}
             <input
               type="checkbox"
